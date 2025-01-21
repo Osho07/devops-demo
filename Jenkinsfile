@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKER_CREDENTIALS = credentials('docker-hub-credentials')
-        IMAGE_NAME = "yourdockerhubusername/devops-demo"
+        IMAGE_NAME = "osho07/devops-demo"
     }
     stages {
         stage('Checkout Code') {
